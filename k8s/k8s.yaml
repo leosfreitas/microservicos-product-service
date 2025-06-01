@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: product
-          image: leosfreitas/product-service:latest
+          image: leosfreitas/product:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
